@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SharedModelDTO.Models.Security.AccountModel">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAg=</HashCode>
+      <FileName>Models\Security\AccountModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Security.Distributed.LoginModel">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAgCAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Models\Security\Distributed\LoginModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Security.Distributed.TokenModel">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\Security\Distributed\TokenModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Security.Distributed.Types.ExternalLoginModel">
+    <Position X="2.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\Security\Distributed\Types\ExternalLoginModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Security.Distributed.Types.WebLoginModel">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\Security\Distributed\Types\WebLoginModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.LotBatch.LotBatchModel">
+    <Position X="16.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AATACAAAAAAABAAAAAgIAAAAAAEAAMkgAAAQgAAABAI=</HashCode>
+      <FileName>Models\LotBatch\LotBatchModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.LotBatch.Distributed.LotBatchAdminModel">
+    <Position X="13.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAKAoADQAAAAGAAASAEAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\LotBatch\Distributed\LotBatchAdminModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.LotBatch.Distributed.LotBatchMerchantModel">
+    <Position X="16.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAQEAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\LotBatch\Distributed\LotBatchMerchantModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.LotBatch.Distributed.LotBatchFinalUserModel">
+    <Position X="19.75" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\LotBatch\Distributed\LotBatchFinalUserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.TransactionModel">
+    <Position X="7" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAQAkBAAEAAAAAAAAAAAAAAAACEAAMAgAIAwEAgAABI=</HashCode>
+      <FileName>Models\Transaction\TransactionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.Detail.TransactionDetailModel">
+    <Position X="4.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAAAAAABAAgAAAEAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Transaction\Detail\TransactionDetailModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.Detail.TransactionRecipientDetailModel">
+    <Position X="7.25" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAgABAAAAAAAAAAAQkAAEAAAIAQAAAAgAI=</HashCode>
+      <FileName>Models\Transaction\Detail\TransactionRecipientDetailModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.Detail.TransactionPayWayDetailModel">
+    <Position X="10.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAACAAAEAAAAgAAEAAEAAAAAAAEAAAAI=</HashCode>
+      <FileName>Models\Transaction\Detail\TransactionPayWayDetailModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.PayWay.PayWayModel">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Transaction\PayWay\PayWayModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.PayWay.PayIn.PayInModel">
+    <Position X="29.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Transaction\PayWay\PayIn\PayInModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.PayWay.PayIn.CashPayment.CashPaymentModel">
+    <Position X="29.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Transaction\PayWay\PayIn\CashPayment\CashPaymentModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.PayWay.PayIn.CashPayment.Distributed.BarCodeModel">
+    <Position X="24.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEIAACQAAAABAAAAACAIAEAAAAAAQAAAAAAAAIAAAA=</HashCode>
+      <FileName>Models\Transaction\PayWay\PayIn\CashPayment\Distributed\BarCodeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.PayWay.PayIn.CashPayment.Distributed.Types.BaproModel">
+    <Position X="22.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAACQAAAAAAAAAAAAAAAAAAEAAUAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Transaction\PayWay\PayIn\CashPayment\Distributed\Types\BaproModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.PayWay.PayIn.CashPayment.Distributed.Types.PagoFacilModel">
+    <Position X="24.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUIAAAAAAAAAAAAAAAAAAAACAEAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Transaction\PayWay\PayIn\CashPayment\Distributed\Types\PagoFacilModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.PayWay.PayIn.CashPayment.Distributed.Types.RapiPagoModel">
+    <Position X="27.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAAAAAAAACAAAAAAAEAAEAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Transaction\PayWay\PayIn\CashPayment\Distributed\Types\RapiPagoModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedModelDTO.Models.Transaction.PayWay.PayOut.PayoutModel">
+    <Position X="22.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Transaction\PayWay\PayOut\PayoutModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

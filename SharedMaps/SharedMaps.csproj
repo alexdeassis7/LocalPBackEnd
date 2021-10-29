@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{807E1945-1857-4D1E-986C-38892C82216D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SharedMaps</RootNamespace>
+    <AssemblyName>SharedMaps</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=8.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.8.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Converters\Services\Banks\Bind\Debin.cs" />
+    <Compile Include="Converters\Services\Banks\Galicia\PayOutMapper.cs" />
+    <Compile Include="Converters\Services\Brasil\PayOutMapperBrasil.cs" />
+    <Compile Include="Converters\Services\Chile\PayOutMapperChile.cs" />
+    <Compile Include="Converters\Services\Colombia\Banks\Bancolombia\PayOutMapperColombia.cs" />
+    <Compile Include="Converters\Services\Mexico\PayOutMapperMexico.cs" />
+    <Compile Include="Converters\Services\Uruguay\PayOutMapperUruguay.cs" />
+    <Compile Include="Converters\Services\Wallet\Wallet.cs" />
+    <Compile Include="Maps\LocalPaymentMapper.cs" />
+    <Compile Include="Maps\Services\Banks\Bind\DebinMapping.cs" />
+    <Compile Include="Maps\Services\Banks\Galicia\PayOutMapping.cs" />
+    <Compile Include="Maps\Services\Brasil\PayOutMappingBrasil.cs" />
+    <Compile Include="Maps\Services\Chile\PayOutMappingChile.cs" />
+    <Compile Include="Maps\Services\Colombia\Banks\Bancolombia\PayOutMappingColombia.cs" />
+    <Compile Include="Maps\Services\Mexico\PayOutMappingMexico.cs" />
+    <Compile Include="Maps\Services\Payin\PayInMapping.cs" />
+    <Compile Include="Maps\Services\Uruguay\PayOutMappingUruguay.cs" />
+    <Compile Include="Maps\Services\Wallet\InternalWalletTransferMapping.cs" />
+    <Compile Include="Converters\View\ViewMapper.cs" />
+    <Compile Include="Maps\View\DashboardMapping.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharedModelDTO\SharedModelDTO.csproj">
+      <Project>{32433dcf-86b2-462e-97e8-c30a3e24cea6}</Project>
+      <Name>SharedModelDTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedModel\SharedModel.csproj">
+      <Project>{50c5c7dd-3049-4c52-a8cf-ffbc4b5bbdce}</Project>
+      <Name>SharedModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

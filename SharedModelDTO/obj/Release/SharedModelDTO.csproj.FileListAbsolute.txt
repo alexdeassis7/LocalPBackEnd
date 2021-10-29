@@ -1,0 +1,6 @@
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModelDTO\bin\Release\SharedModelDTO.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModelDTO\bin\Release\SharedModelDTO.pdb
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModelDTO\obj\Release\SharedModelDTO.csproj.AssemblyReference.cache
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModelDTO\obj\Release\SharedModelDTO.csproj.CoreCompileInputs.cache
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModelDTO\obj\Release\SharedModelDTO.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModelDTO\obj\Release\SharedModelDTO.pdb

@@ -1,0 +1,6 @@
+2021-10-27 11:19:01.597 -03:00 [DBG] Dividing 10 by 0
+2021-10-27 11:19:01.618 -03:00 [ERR] Dividing 10 by 0
+2021-10-27 11:19:01.618 -03:00 [INF] Dividing 10 by 0
+2021-10-27 11:19:01.637 -03:00 [ERR] Something went wrong
+System.DivideByZeroException: Intento de dividir por cero.
+   en SharedBusiness.Log.LogService.Configure() en C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedBusiness\Log\LogService.cs:línea 48

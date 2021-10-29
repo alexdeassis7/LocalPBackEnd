@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WA-LP</name>
+    </assembly>
+    <members>
+        <member name="M:WA_LP.Controllers.WA.Services.DecidirTransactionsController.PayTransactionRequest">
+            <summary>
+            Lee Json desde el cliente, que contiene una carga masiva de transacciones a efectuar.
+            </summary>string data
+            
+        </member>
+        <member name="M:WA_LP.Controllers.WA.Services.PayOutController.Payouts">
+            <summary>
+            Create
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:WA_LP.Controllers.WA.Services.PayOutController.Payout_cancel">
+            <summary>
+            Cancel
+            </summary>
+        </member>
+        <member name="M:WA_LP.Controllers.WA.Services.PayOutController.DownloadPayOutBankTxt">
+            <summary>
+            Download
+            </summary>
+        </member>
+        <member name="M:WA_LP.Controllers.WA.Services.PayOutController.UploadPayOutBankTxtAsync">
+            <summary>
+            Upload
+            </summary>
+        </member>
+        <member name="M:WA_LP.Controllers.WA.Security.AuthenticationController.Token">
+            <summary>
+            Tokens
+            </summary>
+        </member>
+        <member name="M:WA_LP.Controllers.WA.Security.AuthenticationController.Login">
+            <summary>
+            Login
+            </summary>
+        </member>
+    </members>
+</doc>

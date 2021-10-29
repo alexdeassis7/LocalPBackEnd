@@ -1,0 +1,9 @@
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\bin\Release\SharedModel.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\bin\Release\SharedModel.pdb
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\bin\Release\Newtonsoft.Json.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\bin\Release\Newtonsoft.Json.xml
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\obj\Release\SharedModel.csproj.AssemblyReference.cache
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\obj\Release\SharedModel.csproj.CoreCompileInputs.cache
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\obj\Release\SharedModel.csproj.CopyComplete
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\obj\Release\SharedModel.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedModel\obj\Release\SharedModel.pdb

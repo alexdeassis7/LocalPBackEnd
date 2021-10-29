@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>SIDERCA</LicensedTo>
+    <LicenseType>Site Small Business</LicenseType>
+    <LicenseNote>Limited to 10 physical sites, not to exceed 10 developers</LicenseNote>
+    <OrderID>140326143210</OrderID>
+    <OEM>This is not a redistributable license</OEM>
+    <Products>
+      <Product>Aspose.Total for .NET</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>f90fc2cc-2f8d-49ab-8c91-d0e15201c9b3</SerialNumber>
+    <SubscriptionExpiry>20150421</SubscriptionExpiry>
+    <LicenseVersion>2.2</LicenseVersion>
+  </Data>
+  <Signature>p75vpAUcvNN2accfDzvYE6FuQmMWa3HOqTfrRsfVcVma7wkUaGAnoNAYYlLf4OrTUCiCMJtzXBbHwlI1G0cTl5TDcI26f+4Dr5I7+q4+GeW+ygF72epXBdSdI8248GwhDnVPux1icHjHvsPD2LXFwdqbYVpgslBJyt2sn3dj3qA=</Signature>
+</License>

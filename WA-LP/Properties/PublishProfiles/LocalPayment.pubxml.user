@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Brian\Desktop\Proyectos\LocalPayment\localpayment\Publish\Api</_PublishTargetUrl>
+    <History>False|2021-10-14T21:56:43.7346411Z;False|2021-10-14T18:54:07.1612065-03:00;False|2021-10-14T18:53:45.0752874-03:00;False|2021-10-14T18:52:05.0590809-03:00;False|2021-10-14T18:51:47.5661283-03:00;</History>
+  </PropertyGroup>
+</Project>

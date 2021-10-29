@@ -1,0 +1,17 @@
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\SharedMaps.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\SharedMaps.pdb
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\AutoMapper.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\SharedModel.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\SharedModelDTO.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\System.ValueTuple.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\Newtonsoft.Json.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\SharedModelDTO.pdb
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\SharedModel.pdb
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\AutoMapper.xml
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\System.ValueTuple.xml
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\bin\Release\Newtonsoft.Json.xml
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\obj\Release\SharedMaps.csproj.AssemblyReference.cache
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\obj\Release\SharedMaps.csproj.CoreCompileInputs.cache
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\obj\Release\SharedMaps.csproj.CopyComplete
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\obj\Release\SharedMaps.dll
+C:\Users\alex\Desktop\git repo 2\localpayment\BackgroundSide\SharedMaps\obj\Release\SharedMaps.pdb
